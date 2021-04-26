@@ -17,3 +17,11 @@ void bubbleSort(int arr[], int n)
         if (arr[j] > arr[j+1]) 
             swap(&arr[j], &arr[j+1]); 
 }      
+/* Function to print an array */
+void printArray(int arr[], int size) 
+{ 
+    int i; 
+    for (i = 0; i < size; i++) 
+        cout << arr[i] << " "; 
+    cout << endl; 
+} 
