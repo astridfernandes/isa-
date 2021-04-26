@@ -11,6 +11,7 @@ void swap(int *xp, int *yp)
 void bubbleSort(int arr[], int n) 
 { 
     int i, j; 
+<<<<<<< HEAD
     for (i = 0; i < n-1; i++)
 	// Last i elements are already in place 
     for (j = 0; j < n-i-1; j++) 
@@ -28,3 +29,6 @@ void printArray(int arr[], int size)
 // Driver code 
 int main() 
 
+=======
+    for (i = 0; i < n-1; i++)     
+>>>>>>> parent of f07f708 (save3)
